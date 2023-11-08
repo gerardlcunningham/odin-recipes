@@ -9,6 +9,7 @@ body {
     background-image: url('../images/clean-kitchen-workplace.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
@@ -18,7 +19,11 @@ main {
     width: 50%;
     justify-content: center;
     padding-top: 10px;
-    align-items: center;
+    align-items: left;
+}
+
+.image-header {
+    margin: 0 auto;
 }
 
 main ul {
@@ -64,6 +69,48 @@ img {
     background-color: white;
     opacity: 70%;
     padding: 5px;
+}
+
+/*Lasagna Page*/
+
+.food-images {
+    width: 400px;
+}
+
+.recipe-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 40%;
+}
+
+.recipe-containers ul {
+    list-style:circle;
+}
+
+.recipe-containers div {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.recipe-containers li {
+    background-color: white;
+    opacity: 70%;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.return-page {
+    text-align: center;
+}
+
+.return-page a {
+    font-size: 18px;
+    color: blue;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 
